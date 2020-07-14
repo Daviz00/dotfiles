@@ -1,0 +1,8 @@
+npm i material-components-web
+npm audit fix
+npm install --save-dev webpack webpack-cli webpack-dev-server css-loader sass-loader sass extract-loader file-loader
+npm audit fix
+npm start 
+
+
+run -> http://localhost:8080/

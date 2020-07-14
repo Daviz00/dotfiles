@@ -1,105 +1,80 @@
 {
-  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 29,
-  "editor.lineHeight": 45,
-  "editor.quickSuggestionsDelay": 30,
-  "editor.letterSpacing": 0.5,
+  // Theme Setup.
+  "workbench.iconTheme": "material-icon-theme",
+  "color-highlight.enable": true,
+  "color-highlight.matchWords": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "emmet.showExpandedAbbreviation": "always",
+  "emmet.showSuggestionsAsSnippets": false,
+  "editor.detectIndentation": true,
+  "editor.suggestSelection": "first",
+  "editor.wordBasedSuggestions": true,
+  "window.zoomLevel": 0,
+  "editor.useTabStops": true,
+
+  // json
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Font Setup.
+  "editor.fontFamily": "'Operator Mono', 'Fira Code Retina'",
+  // "editor.fontFamily": "'Fira Code Retina', 'Operator Mono'", // alternate
+  // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'", // for firacode
+  "editor.fontLigatures": true, // for operator-mono
+  "editor.fontSize": 15,
+  "terminal.integrated.fontFamily": "Cascadia Code PL",
+  "editor.wordWrap": "on",
+
+  // Third Party Extensions Settings.
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "files.autoSave": "onFocusChange",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "kite.showWelcomeNotificationOnStartup": false,
+  "code-runner.runInTerminal": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.minimap.enabled": false,
+  "editor.cursorBlinking": "phase",
+  "git.enableSmartCommit": true,
+  "telemetry.enableCrashReporter": false,
+  "editor.renameOnType": true,
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  // "terminal.integrated.rendererType": "dom",
+
+  //custom test
+
+  "editor.quickSuggestionsDelay": 0,
+  "editor.cursorWidth": 3,
+  // this isn't really underline but we hack it to be a thicker cursor
+  "editor.cursorStyle": "line",
   "workbench.editor.tabSizing": "shrink",
+  // "editor.lineHeight": 21,
+  // "editor.letterSpacing": 0.25,
   "html.format.enable": true,
   "html.format.preserveNewLines": true,
   "files.trimTrailingWhitespace": true,
-  "editor.tabSize": 2,
-  "editor.cursorWidth": 5,
-  // this isn't really underline but we hack it to be a thicker cursor
-  "editor.cursorStyle": "line",
-  "editor.wordWrap": "on",
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.fontWeight": "400",
-  "editor.cursorBlinking": "solid",
-  "editor.colorDecorators": false,
-  "editor.minimap.enabled": false,
-  "vscode_custom_css.imports": [
-    "/Volumes/Macintosh HD/Users/wesbos/.vscodestyles.css"
-  ],
-  "workbench.activityBar.visible": false,
-  "workbench.sideBar.location": "left",
-  "editor.renderWhitespace": "none",
-  "editor.rulers": [
-    80,
-    100
-  ],
-  "editor.minimap.showSlider": "always",
-  "workbench.startupEditor": "newUntitledFile",
-  "extensions.ignoreRecommendations": false,
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/.next": true
-  },
-  "workbench.colorTheme": "Cobalt2",
-  "workbench.editor.tabCloseButton": "off",
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  // show snippets before any other auto completion
-  "editor.snippetSuggestions": "top",
-  // this lets you quick open multiple items in a row and now have the previous ones closed on you
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-  "sublimeTextKeymap.promptV3Features": true,
-  // These are all my auto-save configs
-  "editor.formatOnSave": true,
-  // turn it off for JS
-  "[javascript]": {
-    "editor.formatOnSave": false
-  },
-  // tell the ESLint plugin to run on save
-  "eslint.autoFixOnSave": true,
-  // Optional: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
-  "prettier.disableLanguages": [
-    "js"
-  ],
-  "eslint.alwaysShowStatus": true,
-  "cSpell.userWords": [
-    "SIGNUP",
-    "Signin",
-    "Signout",
-    "TLDR",
-    "Templating",
-    "backend",
-    "camo",
-    "destructure",
-    "gmail",
-    "injectable",
-    "lightgrey",
-    "minmax",
-    "prefetch",
-    "promisify",
-    "refetch",
-    "wesbos"
-  ],
-  "editor.autoIndent": true,
-  "window.closeWhenEmpty": true,
-  "editor.detectIndentation": false,
+  "editor.colorDecorators": true,
   "files.insertFinalNewline": true,
   "editor.showFoldingControls": "always",
   "editor.find.seedSearchStringFromSelection": true,
-  "editor.matchBrackets": true,
+  "editor.matchBrackets": "always",
   "window.openFilesInNewWindow": "off",
   "workbench.editor.enablePreview": true,
-  "editor.scrollBeyondLastLine": true,
-  "editor.useTabStops": true,
-  "editor.formatOnPaste": true,
-  "[jade]": {
-    "togglequotes.chars": [
-      "\"",
-      "'",
-      "`"
-    ]
+  "workbench.startupEditor": "none",
+
+  "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": 0,
-  "editor.parameterHints.enabled": false
-}
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.jsxBracketSameLine": true
+

@@ -1,9 +1,15 @@
-# dotfiles
+# Configurations
 
-Hey wes what settings do you use?
+#####  [ **A collection of my programming setup files** ] 
 
-These are my config setting for various apps, editors and linters. I'd suggest not copying them directly but referencing what I have and what ones might make sense for you.
-
-These are constantly changing as I work on different types of projects so I don't necessarily always have an answer to "y do u do ____ instead of ____" 
-
-Enjoy! 😘
+- **Operating System** → Microsoft `Windows 10` (Version 2004)
+- **Code Editor** → Microsoft `Visual Studio Code` (Stable) 
+- **Web Browser** → Microsoft `Edge Chromium` (Stable) | Google `Chrome` (Stable) | Mozilla `Firefox`  (Developer Edition) | `Polypane`
+- **Terminal Application** → Microsoft `Windows Terminal` | `Hyper`
+- **Terminal Shell** → Microsoft `PowerShell 7.0.2`
+- **Git Client** → `GitHub Desktop` & Axosoft `GitKraken`
+- **Editor Font** → `Operator Mono` & `Fira Code`
+- **Terminal Font** → `Cascadia Code PL`
+- **Music** → `Spotify` & `YouTube Music`
+- Note Taking App → `Notion` | `Microsoft To Do` | Google `Keep` | Jira `Trello` | `Obsidian`
+- Prototyping App → `Figma` | `Lunacy` | InVision `Studio` | Adobe `XD`
